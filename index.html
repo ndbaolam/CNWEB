@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>Mini Project</title>
+</head>
+
+<body>
+  <nav>
+    <ul class="nav-list">
+      <li class="menu">
+        <i class="fa-solid fa-bars" onclick="toggleSidebar()"></i>
+      </li>
+      <li class="logo">
+        <a href="#home"><img src="/baolam.png" alt="logo"></a>
+      </li>
+      <li>
+        <a href="#course"><i class="fas fa-info-circle"></i> <span class="nav-text">Thông tin môn học</span></a>
+      </li>
+      <li>
+        <a href="#technologies"><i class="fas fa-code"></i> <span class="nav-text">Các công nghệ web</span> </a>
+      </li>
+      <li>
+        <a href="#student"><i class="fas fa-user-graduate"></i> <span class="nav-text">Thông tin sinh viên</span></a>
+      </li>
+    </ul>
+  </nav>
+  <aside id="sidebar">
+    <ul class="side-list">
+      <li>
+        <a href="#home"><i class="fas fa-home"></i> <span class="nav-text">Home</span></a>
+      </li>
+      <li>
+        <a href="#course"><i class="fas fa-info-circle"></i> <span>Thông tin môn học</span></a>
+      </li>
+      <li>
+        <a href="#technologies"><i class="fas fa-code"></i> <span>Các công nghệ web</span> </a>
+      </li>
+      <li>
+        <a href="#student"><i class="fas fa-user-graduate"></i> <span>Thông tin sinh viên</span></a>
+      </li>
+    </ul>
+  </aside>
+  <main>
+    <div class="content">
+      <article id="home">
+        <h2>Thông tin các công ty quan tâm</h2>
+        <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Tên Công Ty</th>
+              <th>Địa Chỉ</th>
+              <th>Số Điện Thoại</th>
+              <th>Email</th>
+              <th>Mô Tả</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Samsung Electronics</strong></td>
+              <td>129 Samsung-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, Hàn Quốc</td>
+              <td>+82-2-2255-0114</td>
+              <td>contact@samsung.com</td>
+              <td>Samsung Electronics là một trong những công ty hàng đầu thế giới trong lĩnh vực điện tử tiêu dùng, sản
+                xuất các sản phẩm như điện thoại thông minh, máy tính bảng, TV và thiết bị gia dụng.</td>
+            </tr>
+            <tr>
+              <td><strong>Toshiba Corporation</strong></td>
+              <td>1-1, Shibaura 1-chome, Minato-ku, Tokyo 105-8001, Nhật Bản</td>
+              <td>+81-3-3457-4511</td>
+              <td>info@toshiba.co.jp</td>
+              <td>Toshiba Corporation là một tập đoàn đa quốc gia Nhật Bản hoạt động trong nhiều lĩnh vực, bao gồm điện
+                tử, năng lượng, công nghệ thông tin và thiết bị y tế.</td>
+            </tr>
+            <tr>
+              <td><strong>Tập Đoàn Viettel</strong></td>
+              <td>Tầng 21, Tòa nhà Viettel, Số 1, phố Giang Văn Minh, Quận Ba Đình, Hà Nội, Việt Nam</td>
+              <td>+84-24-3781-9999</td>
+              <td>contact@viettel.com.vn</td>
+              <td>Tập Đoàn Viettel là một trong những nhà cung cấp dịch vụ viễn thông lớn nhất tại Việt Nam, cung cấp
+                dịch vụ di động, internet và các dịch vụ công nghệ thông tin khác.</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <div class="section-ads">
+          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kdnuggets.com%2F2023%2F04%2Frole-mlops-engineer-organization.html&psig=AOvVaw3WtARFM-PmpcdX47zVww9m&ust=1728847554092000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCODfgZPJiYkDFQAAAAAdAAAAABAb">
+            <img style="width: 300px;" src="https://www.kdnuggets.com/wp-content/uploads/c_role_mlops_engineer_organization_1.png" alt="Advertisement" />
+          </a>
+        </div>
+      </article>
+
+      <section id="course">
+        <h2>Thông tin môn học</h2>
+        <h3>
+          <strong>IT4409 Công nghệ web và dịch vụ trực tuyến (Web technologies and e-Services)</strong>
+        </h3>
+        <ul>
+          <li>- Khối lượng (Credits): 3(2-2-0-6)</li>
+          <li>- Học phần tiên quyết (Prerequisite): Không (None)</li>
+          <li>- Học phần học trước (Pre-courses): (IT3090 hoặc/or IT3091) và/and (IT3100 hoặc/or IT3600)</li>
+          <li>- Học phần song hành (Corequisite Courses): Không (None)</li>
+        </ul>
+        <p>
+          <strong>Mục tiêu:</strong> Học phần cung cấp các kiến thức cần thiết để xây dựng và phát triển các ứng dụng,
+          dịch vụ trực tuyến trên môi trường web. Sau khi học xong học phần này, sinh viên có khả năng:
+        <ul>
+          <li>- Có thể sử dụng một ngôn ngữ lập trình như JSP, PHP để phát triển ứng dụng web cho các lĩnh vực khác nhau
+            như: hệ quản trị nội dung (CMS), cổng thông tin (Portal), hay các ứng dụng điện tử (eCommerce, eLearning,
+            eGoverment,…)</li>
+          <li>- Nắm vững được các công nghệ web, các platform, framework hiện đang thịnh hành.</li>
+        </ul>
+        Ngoài ra học phần cũng cung cấp cho sinh viên các kỹ năng làm việc nhóm, thuyết trình và thái độ cần thiết để
+        làm việc và ứng dụng các kỹ thuật trong các dự án, công ty về phần mềm sau này.
+        </p>
+        <p>
+          <strong>Objectives:</strong> The course provides students with the necessary knowledge to build and develop
+          online applications and services on the web environment. After completing this course, students are able to:
+        <ul>
+          <li>- Use a programming language such as JSP, PHP to develop web applications for different areas such as
+            content management system (CMS), portal, or online applications (eCommerce, eLearning, eGoverment, ...)</li>
+          <li>- Understand the popular web technologies, platforms, frameworks.</li>
+        </ul>
+        In addition, the course also provides students with skills of teamwork and presentation, and attitudes needed to
+        work and apply the techniques in software projects and companies in the future.
+        </p>
+        <div class="section-ads">
+          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.softwebsolutions.com%2Fresources%2Fmlops-use-cases.html&psig=AOvVaw3WtARFM-PmpcdX47zVww9m&ust=1728847554092000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCODfgZPJiYkDFQAAAAAdAAAAABAS">
+            <img style="width: 300px;"src="https://www.softwebsolutions.com/wp-content/uploads/2023/06/MLOps-use-cases.png" alt="Advertisement" />
+          </a>
+        </div>
+      </section>
+
+      <section id="technologies">
+        <h2>Các Công Nghệ Web</h2>
+        <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Công Nghệ</th>
+              <th>Mô Tả</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="nodejs">
+              <td><strong>Node.js</strong></td>
+              <td>Node.js là một nền tảng phát triển ứng dụng phía server, dựa trên JavaScript, có thể sử dụng để xây
+                dựng các ứng dụng web nhanh chóng và có khả năng mở rộng.</td>
+            </tr>
+            <tr id="reactjs">
+              <td><strong>React.js</strong></td>
+              <td>React.js là một thư viện JavaScript mạnh mẽ, do Facebook phát triển, dùng để xây dựng giao diện người
+                dùng với tính năng quản lý trạng thái linh hoạt và khả năng phát triển ứng dụng nhanh chóng.</td>
+            </tr>
+            <tr id="vuejs">
+              <td><strong>Vue.js</strong></td>
+              <td>Vue.js là một framework JavaScript tiến bộ, dùng để xây dựng giao diện người dùng. Nó dễ học và có cấu
+                trúc linh hoạt, giúp phát triển ứng dụng front-end hiệu quả.</td>
+            </tr>
+            <tr id="nextjs">
+              <td><strong>Next.js</strong></td>
+              <td>Next.js là một framework React mạnh mẽ, cho phép phát triển các ứng dụng React với khả năng render
+                phía server (SSR) và tính năng tối ưu hóa SEO tốt.</td>
+            </tr>
+            <tr id="cloudinary">
+              <td><strong>Cloudinary</strong></td>
+              <td>Cloudinary là dịch vụ lưu trữ và quản lý hình ảnh, video trên đám mây. Nó cung cấp các công cụ tối ưu
+                hóa hình ảnh và video, giúp giảm tải cho hệ thống và cải thiện trải nghiệm người dùng.</td>
+            </tr>
+            <tr id="apache">
+              <td><strong>Apache</strong></td>
+              <td>Apache là một trong những máy chủ web phổ biến nhất trên thế giới, được sử dụng để phục vụ các trang
+                web tĩnh và động với cấu hình linh hoạt và dễ sử dụng.</td>
+            </tr>
+            <tr id="docker">
+              <td><strong>Docker</strong></td>
+              <td>Docker là một nền tảng mã nguồn mở, cho phép phát triển, vận hành và quản lý các ứng dụng dưới dạng
+                container. Nó giúp việc triển khai ứng dụng dễ dàng và nhanh chóng.</td>
+            </tr>
+            <tr id="git">
+              <td><strong>Git</strong></td>
+              <td>Git là một hệ thống quản lý phiên bản phân tán, giúp các nhà phát triển theo dõi và quản lý lịch sử mã
+                nguồn, hỗ trợ làm việc nhóm hiệu quả.</td>
+            </tr>
+            <tr id="github">
+              <td><strong>Github</strong></td>
+              <td>Github là một nền tảng lưu trữ mã nguồn sử dụng Git. Nó cung cấp các công cụ hỗ trợ phát triển phần
+                mềm, quản lý dự án và cộng tác trực tuyến.</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <div class="section-ads">
+          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcloudxlab.com%2Fblog%2Fmlops-machine-learning-operations-a-complete-hands-on-guide-with-case-study%2F&psig=AOvVaw3WtARFM-PmpcdX47zVww9m&ust=1728847554092000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCODfgZPJiYkDFQAAAAAdAAAAABAJ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqk07d3vtIKXnYmSP2xg2G_nt-u_ooH0h2A&s" alt="Advertisement" />
+          </a>
+        </div>
+      </section>
+
+      <article id="student">
+        <h2>Thông Tin Sinh Viên</h2>
+        <ul>
+          <li><strong>Tên:</strong> Nguyễn Đăng Bảo Lâm</li>
+          <li><strong>Đại học:</strong> Bách Khoa Hà Nội</li>
+          <li><strong>Chuyên ngành:</strong> Công nghệ thông tin</li>
+          <li><strong>Email:</strong> lam.ndb225873@sis.hust.edu.vn / baolam782004@gmail.com</li>
+          <li>
+            <strong>Kinh nghiệm làm việc với Web:</strong>
+            <ul>
+              <li>
+                - 05/2024 - 07/2024: Công ty TNHH Hưng Hà. Techstack: NextJS, ExpressJS, MongoDB, Nginx, Git, Github.
+              </li>
+              <li>
+                - 07/2024 - 09/2024: Sun Asterisk Hà Nội.
+                Techstack: NestJS, VueJS, PostgreSQL, Docker, Git, Github, Github Action (CI/CD).
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          <strong>Định hướng:</strong> Mong muốn tìm hiểu và học hỏi công nghệ mới, phát triển các lĩnh vực khác không
+          chỉ riêng web (devops, AI, machine learning, big data, ...)
+        </p>
+        <div class="section-ads">
+          <a href="https://ml-ops.org/content/mlops-principles">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7JERuSFJk4TTe7KfdVGFVchvIc1mc_L5Jw&s" alt="Advertisement" />
+          </a>
+        </div>
+      </article>
+    </div>
+    <div class="ads">
+      <a href="https://ml-ops.org/content/mlops-principles">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7JERuSFJk4TTe7KfdVGFVchvIc1mc_L5Jw&s" alt="Advertisement" />
+      </a>
+      <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcloudxlab.com%2Fblog%2Fmlops-machine-learning-operations-a-complete-hands-on-guide-with-case-study%2F&psig=AOvVaw3WtARFM-PmpcdX47zVww9m&ust=1728847554092000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCODfgZPJiYkDFQAAAAAdAAAAABAJ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqk07d3vtIKXnYmSP2xg2G_nt-u_ooH0h2A&s" alt="Advertisement" />
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Web & E-services MiniProject.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
